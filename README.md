@@ -1,8 +1,10 @@
 # EPL1155P1-Physics-Simulation
 Groupe 1155 EPL : simulation informatique pour le projet 1
 
-
-
+Membres de l'équipe : Samy Adda, Lucas Ahou, Geoffroy Amory, Bastien Aubecq, Romain Bellens
+\
+\
+\
 INTRODUCTION :
 
 Ce dossier contient tous les programmes écrits dans le cadre de la simulation physique du projet 1 du groupe 1155 (EPL).
@@ -16,8 +18,8 @@ Ils permettent de :
 
 -Trouver la fonction mathématique approchant le mieux une pente à partir d'une image de celle-ci.
 
-
-
+\
+\
 PROGRAMMES :
 
 1) PhysicsSimulation1155.py :
@@ -44,7 +46,8 @@ Dans l'interface graphique, il est possible de :
 -Choisir quelle type de fonction doit être utilisé pour approximer la pente (xponentielle ou polynome de degré quelconque, avec ou sans termes d'exposant impair).
 -Voir la fonction trouvée par le programme sur l'image et en connaitre son équation.
 
-
+\
+\
 AUTRES FICHIERS :
 
 1) experimentalData.txt :
