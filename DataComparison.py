@@ -81,7 +81,7 @@ def plotMovement():
 
 
 def load(dictionary):
-    """Tries to load settings3.json. If it doesn't exist, create it with the default settings.
+    """Tries to load settings2.json. If it doesn't exist, create it with the default settings.
 
     Args:
         dictionary (dict): The default settings
@@ -98,7 +98,7 @@ def load(dictionary):
     return dictionary
 
 def save(dictionary):
-    """Saves current settings in settings3.json
+    """Saves current settings in settings2.json
 
     Args:
         dictionary (dict): The settings to save
