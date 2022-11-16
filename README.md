@@ -40,10 +40,10 @@ Le tout est une interface graphique permettant d'ouvrir et de fermer un/plusieur
 4) FunctionFinder1155.py :
 Le programme FunctionFinder1155 permet de trouver la meilleure fonction mathématique (polynome ou exponentielle) afin d'approcher la forme de notre pente pour le programme de simulation.
 Dans l'interface graphique, il est possible de :
--Ouvrir une image.
--Positionner 2 points de coordonnées connues sur l'image pour former le repère.
--Placer des points sur l'image pour indiquer au programme où est la pente.
--Choisir quelle type de fonction doit être utilisé pour approximer la pente (xponentielle ou polynome de degré quelconque, avec ou sans termes d'exposant impair).
+-Ouvrir une image.  
+-Positionner 2 points de coordonnées connues sur l'image pour former le repère.  
+-Placer des points sur l'image pour indiquer au programme où est la pente.  
+-Choisir quelle type de fonction doit être utilisé pour approximer la pente (xponentielle ou polynome de degré quelconque, avec ou sans termes d'exposant impair).  
 -Voir la fonction trouvée par le programme sur l'image et en connaitre son équation.
 
 \
