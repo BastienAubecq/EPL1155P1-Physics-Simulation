@@ -50,23 +50,25 @@ def simulation():
         vxPente[i] = vf * np.cos(angle)
         vyPente[i] = - vf * np.sin(angle)
     
-    ## Simulation x, v, a
+    ## Simulation x, v, a sur le sol
     t = np.arange(0, end, step)
     x = np.zeros_like(t)
     v = np.zeros_like(t)
     a = np.zeros_like(t)
     y = np.zeros_like(t)
 
+    #Calcul de la position, vitesse et accélération à chaque instant (avec un dt très petit)
     x[0] = 0
     v[0] = vxPente[-1]
     for i in range(len(t)-1):
         dt = step
 
+        #Calcul du frottement et de l'accélération
         f_frott = -k*v[i] #F = -kv
-        a[i] = f_frott/m
+        a[i] = f_frott/m #F = ma
         
-        v[i+1] = v[i] + (a[i] * dt)
-        x[i+1] = x[i] + (v[i] * dt)
+        v[i+1] = v[i] + (a[i] * dt) #Ajout de l'accélération * dt à la vitesse
+        x[i+1] = x[i] + (v[i] * dt) #Ajout de la vitesse * dt à la position
 
     #Rassembler les données de la pente et du sol
     t = np.concatenate((-tPente[-1]+tPente, t))
@@ -79,8 +81,8 @@ def simulation():
     e_pot = m * g * y
     e_cin = m * v**2 / 2
     e_tot = e_pot + e_cin
-
-
+    
+    
     #(Donnees exp)
     tExpTmp = [tExp[i] for i in range(len(tExp)) if tExp[i] <= settings["Fin"]]
     xExpTmp = [xExp[i] for i in range(len(tExp)) if tExp[i] <= settings["Fin"]]
