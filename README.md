@@ -43,7 +43,7 @@ Dans l'interface graphique, il est possible de :
 -Ouvrir une image.  
 -Positionner 2 points de coordonnées connues sur l'image pour former le repère.  
 -Placer des points sur l'image pour indiquer au programme où est la pente.  
--Choisir quelle type de fonction doit être utilisé pour approximer la pente (exponentielle ou polynôme de degré quelconque, avec ou sans termes d'exposant impair).  
+-Choisir quel type de fonction doit être utilisé pour approximer la pente (exponentielle ou polynôme de degré quelconque, avec ou sans termes d'exposant impair).  
 -Voir la fonction trouvée par le programme sur l'image et en connaitre son équation.
 
 \
