@@ -14,7 +14,7 @@ stepPente = 0.001
 
 
 def simulation():
-    """Simule la position (x et y), la vitesse et l'accélération sur la pente et sur le sol
+    """Simule la position (x et y), la vitesse, l'accélération et l'énergie sur la pente et sur le sol
     """
     global t, x, v, a, y, e_cin, e_pot, e_tot, tExpTmp, xExpTmp, yExpTmp, vExpTmp, aExpTmp
     k, m, h, w, kp, g, end = settings["k"], settings["m"], settings["hp"], settings["lp"], settings["kp"], settings["g"], settings["Fin"]
